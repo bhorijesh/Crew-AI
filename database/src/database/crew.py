@@ -83,7 +83,7 @@ class Database():
         try:
             value = task_output.raw  # The actual output of the task is stored in the 'raw' attribute
             self.memory_backend.store(key, value)
-            print(f"Task output stored successfully: key={key}, value={value[:100]}...")  
+            print(f"Task output stored successfully: key={key}")  
         except Exception as e:
             print(f"Failed to store task output: {str(e)}")
 

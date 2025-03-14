@@ -32,7 +32,7 @@ def run():
         result = database_crew.crew().kickoff(inputs=inputs)
         
         # Print the result of the crew execution
-        print(f"Crew execution completed successfully. Result: {result}")
+        print(f"Crew execution completed successfully")
     except Exception as e:
         print(f"An error occurred while running the crew: {e}")
         raise
